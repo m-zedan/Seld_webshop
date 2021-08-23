@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-22 21:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\home\templates\about.html:15 .\home\templates\contactus.html:15
+#: .\home\templates\sidebar.html:39
+msgid "Home"
+msgstr ""
+
+#: .\home\templates\about.html:16 .\home\templates\sidebar.html:40
+msgid "About Us"
+msgstr "من نحن"
+
+#: .\home\templates\contactus.html:16
+msgid "Contact Page"
+msgstr "إتصل بنا"
+
+#: .\home\templates\contactus.html:34
+msgid "Contact Form"
+msgstr "نموذج اتصال"
+
+#: .\home\templates\contactus.html:48
+msgid "SEND FORM"
+msgstr "إرسال النموذج"
+
+#: .\home\templates\contactus.html:57
+msgid "Contact Information"
+msgstr "معلومات الاتصال"
+
+#: .\home\templates\header.html:9
+#, fuzzy
+#| msgid "Welcome to Selda!"
+msgid "Welcome to Selda Web-Shop"
+msgstr "مرحبا بمتجر سيلدا"
+
+#: .\home\templates\header.html:24 .\home\templates\header2.html:23
+msgid "Store"
+msgstr ""
+
+#: .\home\templates\header.html:25 .\home\templates\header2.html:24
+msgid "Newsletter"
+msgstr ""
+
+#: .\home\templates\header.html:26 .\home\templates\header2.html:25
+msgid "FAQ"
+msgstr ""
+
+#: .\home\templates\header.html:115 .\home\templates\header2.html:89
+msgid "All Categories"
+msgstr ""
+
+#: .\home\templates\header.html:140 .\home\templates\header2.html:126
+msgid "My Account"
+msgstr ""
+
+#: .\home\templates\header.html:141 .\home\templates\header2.html:127
+msgid "My Favorits"
+msgstr ""
+
+#: .\home\templates\header.html:142 .\home\templates\header2.html:128
+msgid "My Orders "
+msgstr ""
+
+#: .\home\templates\header.html:143 .\home\templates\header2.html:129
+msgid "My Comments"
+msgstr ""
+
+#: .\home\templates\header.html:144 .\home\templates\header2.html:130
+msgid "Logout"
+msgstr ""
+
+#: .\home\templates\header.html:160 .\home\templates\header2.html:143
+msgid "My Cart:"
+msgstr ""
+
+#: .\home\templates\header2.html:8
+#, fuzzy
+#| msgid "Welcome to Selda!"
+msgid "Welcome to Selda Web-Shop!"
+msgstr "مرحبا بمتجر سيلدا"
+
+#: .\home\templates\sidebar.html:16
+msgid "Categories"
+msgstr ""
+
+#: .\home\templates\sidebar.html:41
+msgid "Contact Us"
+msgstr ""

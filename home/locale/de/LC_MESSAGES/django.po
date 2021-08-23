@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-22 21:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\about.html:15 .\home\templates\contactus.html:15
+#: .\home\templates\sidebar.html:39
+msgid "Home"
+msgstr "Startseite"
+
+#: .\home\templates\about.html:16 .\home\templates\sidebar.html:40
+msgid "About Us"
+msgstr "Über Uns"
+
+#: .\home\templates\contactus.html:16
+msgid "Contact Page"
+msgstr "Kontaktseite"
+
+#: .\home\templates\contactus.html:34
+msgid "Contact Form"
+msgstr "Kontakt Formular"
+
+#: .\home\templates\contactus.html:48
+msgid "SEND FORM"
+msgstr "SENDE FORMULAR"
+
+#: .\home\templates\contactus.html:57
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+#: .\home\templates\header.html:9
+msgid "Welcome to Selda Web-Shop"
+msgstr "Willkommen im Selda Web-Shop"
+
+#: .\home\templates\header.html:24 .\home\templates\header2.html:23
+msgid "Store"
+msgstr "Lager"
+
+#: .\home\templates\header.html:25 .\home\templates\header2.html:24
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: .\home\templates\header.html:26 .\home\templates\header2.html:25
+msgid "FAQ"
+msgstr ""
+
+#: .\home\templates\header.html:115 .\home\templates\header2.html:89
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: .\home\templates\header.html:140 .\home\templates\header2.html:126
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: .\home\templates\header.html:141 .\home\templates\header2.html:127
+#, fuzzy
+#| msgid "My Favorites"
+msgid "My Favorits"
+msgstr "Wunschliste"
+
+#: .\home\templates\header.html:142 .\home\templates\header2.html:128
+msgid "My Orders "
+msgstr "Meine Bestellungen"
+
+#: .\home\templates\header.html:143 .\home\templates\header2.html:129
+msgid "My Comments"
+msgstr "Meine Kommentare"
+
+#: .\home\templates\header.html:144 .\home\templates\header2.html:130
+msgid "Logout"
+msgstr "Abmelden"
+
+#: .\home\templates\header.html:160 .\home\templates\header2.html:143
+msgid "My Cart:"
+msgstr "Mein Warenkorb"
+
+#: .\home\templates\header2.html:8
+#, fuzzy
+#| msgid "Welcome to Selda Web-Shop"
+msgid "Welcome to Selda Web-Shop!"
+msgstr "Willkommen im Selda Web-Shop"
+
+#: .\home\templates\sidebar.html:16
+msgid "Categories"
+msgstr "Kategorien"
+
+#: .\home\templates\sidebar.html:41
+msgid "Contact Us"
+msgstr "Kontakt Uns"
