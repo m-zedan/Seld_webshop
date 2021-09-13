@@ -1,9 +1,14 @@
 from django.contrib import admin
+from .models import  HomeAPI
+from django.contrib import admin
 from django.utils.translation import gettext_lazy as _
 
 # Register your models here.
 from home.models import Setting, ContactMessage, FAQ, Language, SettingLang
+# Register your models here.
 
+
+admin.site.register(HomeAPI)
 
 class SettingtAdmin(admin.ModelAdmin):
     list_display = ['title','company', 'update_at','status']
@@ -33,5 +38,3 @@ admin.site.register(SettingLang,SettingLangAdmin)
 admin.site.register(ContactMessage,ContactMessageAdmin)
 admin.site.register(FAQ,FAQAdmin)
 admin.site.register(Language,LanguagesAdmin)
-
-

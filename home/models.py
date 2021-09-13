@@ -1,3 +1,4 @@
+
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
@@ -6,6 +7,16 @@ from django.utils.translation import ugettext_lazy as _
 from django.forms import ModelForm, TextInput, Textarea
 from django.http import request
 from django.utils.safestring import mark_safe
+# Create your models here.
+from datetime import date
+from django.db import models
+
+class HomeAPI(models.Model):
+    name = models.CharField(max_length=30)
+    email = models.CharField(max_length=190)
+    subject = models.CharField(max_length=120)
+    date = models.DateField(default=date.today)
+    description = models.TextField(null=True, blank=True) 
 
 class Language(models.Model):
     name= models.CharField(max_length=20)
@@ -115,6 +126,3 @@ class FAQ(models.Model):
 
     def __str__(self):
         return self.question
-
-
-

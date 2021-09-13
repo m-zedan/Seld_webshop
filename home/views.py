@@ -1,11 +1,11 @@
 import json
-
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.db.models import Avg, Count, Q, F
 from django.db.models.functions import Concat
+from django.db.models.query import QuerySet
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse, request
 from django.shortcuts import render
 
@@ -16,9 +16,30 @@ from django.utils import translation
 
 from home.forms import SearchForm
 from home.models import Setting, ContactForm, ContactMessage, FAQ, SettingLang, Language
-from mysite import settings
+from seldashop import settings
 from product.models import Category, Product, Images, Comment, Variants, ProductLang, CategoryLang
 from user.models import UserProfile
+
+#from django.http import HttpResponse, JsonResponse
+#from django.views.decorators.csrf import csrf_exempt
+#from rest_framework.parsers import JSONParser
+from rest_framework import viewsets
+from .models import HomeAPI
+from .serializers import HomeSerializer, LanguageSerializer, SettingSerializer
+
+# Create your views here.
+
+class HomeAPIView(viewsets.ModelViewSet):
+    queryset = HomeAPI.objects.all()
+    serializer_class = HomeSerializer 
+
+class LanguageView(viewsets.ModelViewSet):
+    queryset = Language.objects.all()
+    serializer_class = LanguageSerializer 
+
+class SettingView(viewsets.ModelViewSet):
+    queryset = Setting.objects.all()
+    serializer_class = SettingSerializer 
 
 
 def index(request):
